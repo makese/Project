@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">人事工资系统</a> </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">首页</a></li>
+        <li><a href="#about">工资详情</a></li>
+        <li><a href="#contact">考勤详情</a></li>
+        <li><a href="#contact">请假详情</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">蒋鹏飞<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 main-content">
+      <div class="logincontainer">
+        <div class="header-lined">
+          <h1>密码重置</h1>
+        </div>
+        <p>忘记您的密码？输入您的电子邮件地址，下面开始重置的过程。</p>
+        <form method="post" action="" role="form">
+          <input type="hidden" name="token" value="c70c9f4d457f22942a84442af1298a216688b7fb">
+          <input type="hidden" name="action" value="reset">
+          <div class="form-group">
+            <label for="inputEmail">身份证号码</label>
+            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="号码" autofocus="">
+          </div>
+          <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">提交</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

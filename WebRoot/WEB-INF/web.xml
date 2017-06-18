@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>cn.makese.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PasswordServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>cn.makese.servlet.PasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.makese.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>cn.makese.servlet.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InformationServlet</servlet-name>
+    <servlet-class>cn.makese.servlet.InformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResetServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>cn.makese.servlet.ResetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkServlet</servlet-name>
+    <servlet-class>cn.makese.servlet.WorkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Manage</servlet-name>
+    <servlet-class>cn.makese.servlet.Manage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageServlet</servlet-name>
+    <servlet-class>cn.makese.servlet.ManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveServlet</servlet-name>
+    <servlet-class>cn.makese.servlet.LeaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeManage</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>cn.makese.servlet.EmployeeManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserInfoManage</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>cn.makese.servlet.UserInfoManage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LeaveManage</servlet-name>
+    <servlet-class>cn.makese.servlet.LeaveManage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SalaryServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>cn.makese.servlet.SalaryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SignInServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>cn.makese.servlet.SignInServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PasswordServlet</servlet-name>
+    <url-pattern>/PasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InformationServlet</servlet-name>
+    <url-pattern>/InformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResetServlet</servlet-name>
+    <url-pattern>/ResetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkServlet</servlet-name>
+    <url-pattern>/WorkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Manage</servlet-name>
+    <url-pattern>/Manage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageServlet</servlet-name>
+    <url-pattern>/ManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveServlet</servlet-name>
+    <url-pattern>/LeaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeManage</servlet-name>
+    <url-pattern>/EmployeeManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfoManage</servlet-name>
+    <url-pattern>/UserInfoManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LeaveManage</servlet-name>
+    <url-pattern>/LeaveManage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SalaryServlet</servlet-name>
+    <url-pattern>/SalaryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignInServlet</servlet-name>
+    <url-pattern>/SignInServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

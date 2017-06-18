@@ -1,0 +1,91 @@
+@charset "utf-8";
+div.header-lined h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding:6px 0;
+    border-bottom:1px solid #ccc;
+    font-weight: 400;
+    color: #058;
+}
+.bg-color-gold {
+    background-color: #f0ad4e;
+}
+.bg-color-green {
+    background-color: #5cb85c;
+}
+.bg-color-red {
+    background-color: #d9534f;
+}
+.bg-color-blue {
+    background-color: #5bc0de;
+}
+.tiles {
+    margin: 0 15px 15px 15px;
+}
+.tiles .tile {
+    padding: 12px 20px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ccc;
+}
+.tiles .tile a {
+    text-decoration: none;
+}
+.tiles .tile:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.tiles .tile .highlight {
+    margin-top: 4px;
+    height: 2px;
+    border-radius: 2px;
+}
+.tiles .tile:last-child {
+    border: 0;
+}
+.tile .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 48px;
+    line-height: 1;
+    color: #ccc;
+}
+.tile .stat {
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 1;
+}
+.tile .title {
+    font-weight: bold;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.panel.panel-accent-blue {
+    border-top: 3px solid #5bc0de;
+}
+.panel.panel-accent-gold {
+    border-top: 3px solid #f0ad4e;
+}
+.panel.panel-accent-red {
+    border-top: 3px solid #d9534f;
+}
+.panel.panel-accent-asbestos {
+    border-top: 3px solid #7f8c8d;
+}
+.client-home-panels .panel > .panel-heading .panel-title .btn {
+    color: #fff;
+    border: 0;
+}
+.client-home-panels .panel > .panel-heading .panel-title .btn:hover {
+    color: #000;
+}
+.logincontainer {
+    margin: 40px auto 100px auto;
+    padding: 0 10px;
+    max-width: 500px;
+}
+#inputcode {
+    width: 70%;
+    display: inline;
+}

@@ -1,0 +1,163 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">人事工资系统</a> </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">首页</a></li>
+        <li><a href="#about">工资详情</a></li>
+        <li><a href="#contact">考勤详情</a></li>
+        <li><a href="#contact">请假详情</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">详细信息</a></li>
+            <li><a href="#">修改密码</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">注销</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 pull-md-left sidebar">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">&nbsp; 你的信息</h3>
+        </div>
+        <div class="panel-body">
+          <p><strong>鹏飞 蒋</strong></p>
+          <p>黑龙江<br/>
+            黑河<br />
+            黑龙江<br />
+            164300<br />
+            China</p>
+        </div>
+        <div class="panel-footer clearfix"> <a class="btn btn-success btn-sm btn-block">更改</a> </div>
+      </div>
+    </div>
+    <div class="col-md-9 pull-md-right">
+      <div class="header-lined">
+        <h1>欢迎回来</h1>
+        <ul class="breadcrumb">
+          <li><a>客户中心</a></li>
+          <li><a>我的客户中心</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-9 pull-md-right main-content">
+      <div class="tiles clearfix">
+        <div class="row">
+          <div class="col-sm-3 col-xs-6 tile" onClick="window.location=''"> <a href="">
+            <div class="icon"><i class="fa fa-cube"></i></div>
+            <div class="stat">1</div>
+            <div class="title">产品服务</div>
+            <div class="highlight bg-color-blue"></div>
+            </a> </div>
+          <div class="col-sm-3 col-xs-6 tile" onClick="window.location=''"> <a href="">
+            <div class="icon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+            <div class="stat">0</div>
+            <div class="title">问题</div>
+            <div class="highlight bg-color-green"></div>
+            </a> </div>
+          <div class="col-sm-3 col-xs-6 tile" onClick="window.location=''"> <a href="">
+            <div class="icon"><i class="fa fa-comments"></i></div>
+            <div class="stat">0</div>
+            <div class="title">查看工单</div>
+            <div class="highlight bg-color-red"></div>
+            </a> </div>
+          <div class="col-sm-3 col-xs-6 tile" onClick="window.location=''"> <a href="">
+            <div class="icon"><i class="fa fa-credit-card"></i></div>
+            <div class="stat">1</div>
+            <div class="title">发票</div>
+            <div class="highlight bg-color-gold"></div>
+            </a> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div menuItemName="Overdue Invoices" class="panel panel-default panel-accent-red">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <div class="pull-right"> <a href="clientarea.php?action=masspay&all=true" class="btn btn-default bg-color-red btn-xs"> <i class="fa fa-arrow-right"></i> 现在支付 </a> </div>
+                  <i class="fa fa-calculator"></i>&nbsp;                            过期帐单 </h3>
+              </div>
+              <div class="panel-body">
+                <p>。</p>
+              </div>
+              <div class="panel-footer"> </div>
+            </div>
+            <div menuItemName="Recent Support Tickets" class="panel panel-default panel-accent-blue">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <div class="pull-right"> <a href="submitticket.php" class="btn btn-default bg-color-blue btn-xs"> <i class="fa fa-plus"></i> 开启新的服务单 </a> </div>
+                  <i class="fa fa-comments"></i>&nbsp;                            最近的服务单 </h3>
+              </div>
+              <div class="panel-body">
+                <p>如果您有任何问题，<a href="submitticket.php">请点选这里提交服务单</a></p>
+              </div>
+              <div class="panel-footer"> </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div menuItemName="Active Products/Services" class="panel panel-default panel-accent-gold">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <div class="pull-right"> <a href="" class="btn btn-default bg-color-gold btn-xs"> <i class="fa fa-plus"></i> 查看全部 </a> </div>
+                  <i class="fa fa-cube"></i>&nbsp;                            目前运作中的服务 </h3>
+              </div>
+              <div class="list-group"> <a menuItemName="0" href="" class="list-group-item" id="ClientAreaHomePagePanels-Active_Products_Services-0"> 」<br />
+                <span class="text-domain"></span> </a> </div>
+              <div class="panel-footer"> </div>
+            </div>
+            <div menuItemName="Recent News" class="panel panel-default panel-accent-asbestos">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <div class="pull-right"> <a href="" class="btn btn-default bg-color-asbestos btn-xs"> <i class="fa fa-arrow-right"></i> 查看全部 </a> </div>
+                  <i class="fa fa-newspaper-o"></i>&nbsp;                            最新消息 </h3>
+              </div>
+              <div class="list-group"> <a menuItemName="0" href="" class="list-group-item" id="ClientAreaHomePagePanels-Recent_News-0"> 影梭成功升级改版通知！！！<br />
+                <span class="text-last-updated">03/05/2016</span> </a> </div>
+              <div class="panel-footer"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 pull-md-left sidebar">
+      <div menuItemName="Client Contacts" class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> <i class="fa fa-folder-o"></i>&nbsp;                联系方式 </h3>
+        </div>
+        <div class="list-group">
+          <div menuItemName="No Contacts" class="list-group-item" id="Secondary_Sidebar-Client_Contacts-No_Contacts"> 没有联系人 </div>
+        </div>
+        <div class="panel-footer clearfix"> <a href="clientarea.php?action=addcontact" class="btn btn-default btn-sm btn-block"> <i class="fa fa-plus"></i> 新建联系人 </a> </div>
+      </div>
+      <div menuItemName="Client Shortcuts" class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> <i class="fa fa-bookmark"></i>&nbsp;                操作 </h3>
+        </div>
+        <div class="list-group"> <a menuItemName="Order New Services" href="cart.php" class="list-group-item" id="Secondary_Sidebar-Client_Shortcuts-Order_New_Services"> <i class="fa fa-shopping-cart fa-fw"></i>&nbsp;                            订购新产品 </a> <a menuItemName="Logout" href="logout.php" class="list-group-item" id="Secondary_Sidebar-Client_Shortcuts-Logout"> <i class="fa fa-arrow-left fa-fw"></i>&nbsp;                            注销 </a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

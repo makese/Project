@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+    	$('#example').DataTable();
+	} );
+</script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 pull-left sidebar">
+      <div class="panel panel-default panel-actions view-filter-btns">
+        <div class="panel-heading">
+          <h3 class="panel-title"> <i class="fa fa-filter"></i>&nbsp;考勤 </h3>
+        </div>
+        <div class="list-group"> 
+        <a href="" class="list-group-item" > &nbsp; <span>上班</span> &nbsp;<span class="badge"></span> </a> 
+        <a href="" class="list-group-item" > &nbsp; <span>加班</span> &nbsp;<span class="badge"></span> </a> 
+        <a href="" class="list-group-item" > &nbsp; <span>缺勤</span> &nbsp;<span class="badge"></span> </a> 
+        <a href="" class="list-group-item" > &nbsp; <span>请假</span> &nbsp;<span class="badge"></span> </a> </div>
+      </div>
+    </div>
+    <div class="col-md-9 pull-right">
+      <div class="header-lined">
+        <h1>员工管理</h1>
+        <ol class="breadcrumb">
+          <li> <a href=""> 系统管理 </a> </li>
+          <li class="active"> 员工管理 </li>
+        </ol>
+      </div>
+    </div>
+    <div class="col-md-9 pull-right">
+    <form>
+      <table id="example" class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>员工号</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>电话</th>
+            <th>身份证号</th>
+            <th>工资</th>
+            <th>职位</th>
+            <th>权限</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>     
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    </div>
+    <div class="col-md-3 pull-left">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> <i class="fa fa-bookmark"></i>&nbsp;操作 </h3>
+        </div>
+        <div class="list-group"> 
+        <a class="list-group-item"><input type="submit" name="type" value="添加" style="display:none;"></input>&nbsp;添加</a> 
+        <a class="list-group-item"><input type="submit" name="type" value="修改" style="display:none;"></input> &nbsp;修改 </a>
+        <a class="list-group-item"><input type="submit" name="type" value="删除" style="display:none;"></input>&nbsp;删除</a> 
+        <a class="list-group-item">&nbsp;注销 </a> </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
